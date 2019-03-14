@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body {
+	width: 100%;
+	height: 100%;
+	font-family: "Poppins", sans-serif;
+	color: #222;
+}
+
+.bg-curie {
+	background-color: rgb(5, 104, 57);
+}
+
+.bg-navbar-curie {
+	background-color: rgb(155, 195, 176);
+}
+
+.btn-curie {
+    color: #fff;
+    background-color: rgb(5, 104, 57);
+    border-color: rgb(5, 104, 57);
+}
+
+.text-curie {
+	color: rgb(5, 104, 57);
+}
+
+.bg-navbar-curie {
+	color: #fff;
+    background-color: rgb(5, 104, 57);
+    border-color: rgb(5, 104, 57);
+}
+
+.activo {
+	border-bottom: 2px solid  rgb(5, 104, 57);
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+/* Redes Sociales */
+.social {
+	margin-left: auto;
+}
+
+.social svg {
+	font-size: 1.2rem;
+}
+
+.fa-facebook:hover, 
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-youtube:hover {
+  color: #d5d5d5;
+  cursor: pointer;
+}
+
+/* Navbar */
+.navbar {
+  padding: .8rem;
+}
+.navbar-nav li {
+  padding-right: 50px;
+}
+.nav-link {
+  font-size: 1.1em !important;
+}
+
+#logo {
+	width: 25%;
+}
+
+.navbar {
+	box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.32);
+}
+
+#mail {
+	padding: 0px !important;
+}
+
+img {
+	width: 100%;
+}
+
+.card-text {
+	font-size: 120%;
+}
+
+.col-12 {
+	padding: 0px;
+}
+
+p {
+	margin: 0px;
+}
+
+.padding {
+	padding-top: 3rem;
+}
+
+.background2 {
+    background: url('../img/dr-testimonial-bg.jpg') no-repeat fixed;
+    height: 300px;
+    width: 100%;
+    background-size: 100%;
+}
+
+.blockquote-footer {
+	font-size: 100%;
+}
+
+/* Footer */
+
+footer {
+  padding-top: 2rem;
+}
+
+hr.black {
+	border-top: 2px solid black; 
+	width: 70%;
+}
+
+hr.light {
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+hr.light-100 {
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+/* No media query since this is the default in Bootstrap*/
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (max-width: 768px) { 
+
+	#mapa2 { display: block; }
+
+	#mapa1 { display: none; }
+
+	#logo { width: 40%; }
+
+	h1 { font-size: 1.75rem; }
+
+	h3{ font-size: 1.15rem; }
+
+	h4 { font-size: 1.15rem; } 
+
+	#textoIndex { font-size: 100%; }
+
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+
+	#mapa1 { display: block; }
+
+	#mapa2 { display: none; }
+
+	#logo {	width: 25%; }
+	
+	h1 {
+		font-size: 2.5rem;
+		margin-top: 5rem;
+	}
+	
+	h4 { font-size: 1.5rem; }
+	
+	#textoIndex { font-size: 120%; }
+
+}
+
+@media (max-width: 768px) { 
+	.background2 {
+		background: url('../img/dr-testimonial-bg.jpg');
+		width: 100%;
+		background-position: center;
+	}	
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }

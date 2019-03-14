@@ -1,0 +1,72 @@
+.list-group-item-2 {
+	padding: 1.5rem;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+#portadaServicio {
+	margin-bottom: 3rem;
+}
+
+.big {
+	font-size: 130%;
+}
+
+.p-big {
+	font-size: 120%;
+	margin: 1.5rem;	
+	line-height: 1.8;
+}
+
+.jumbotron {
+	margin: 2rem 0 4rem 0;
+}
+
+.background1 {
+    background: url('../img/hospital.jpg') no-repeat fixed;
+    height: 300px;
+    width: 100%;
+    background-size: 100%;
+}
+
+.background2 {
+    background: url('../img/dr-testimonial-bg.jpg') no-repeat fixed;
+    height: 300px;
+    width: 100%;
+    background-size: 100%;
+}
+
+/* EL QUOTE que está dentro del Background de descanso */
+.dr-quote span.quote {
+    font-size: 40px;
+    font-weight: 100;
+    margin: 7% 0 0 0;
+    text-align: center;
+}
+
+.dr-quote span.quote {
+    font-size: 30px;
+    color: #fff;
+    display: inline-block;
+}
+
+
+
+@media (max-width: 768px) { 
+	.background1 {
+		background: url('../img/hospital.jpg');
+		background-repeat:no-repeat;
+		background-position: center;
+		width: 100%;
+	}
+}
+
+@media (max-width: 1200px) { 
+
+	.background2 {
+		background: url('../img/dr-testimonial-bg.jpg');
+		width: 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+	}	
+}
